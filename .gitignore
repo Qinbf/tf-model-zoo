@@ -1,0 +1,12 @@
+/bazel-bin
+/bazel-ci_build-cache
+/bazel-genfiles
+/bazel-out
+/bazel-im2txt
+/bazel-testlogs
+/bazel-tf
+*/.DS_Store
+.DS_Store
+.ipynb_checkpoints*
+*/.ipynb_checkpoints*
+*__pycache__*
