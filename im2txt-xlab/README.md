@@ -111,9 +111,3 @@ video2txt.ipynb是对应的jupyter文件
 [视频链接](https://v.qq.com/x/page/e08041dvk23.html)
 
 喜欢的朋友，记得star和follow哦。
-
-## 一起交流
-我的微信号：**sdxxqbf**
-以下为微信二维码：
-
-![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/README_IMG/02.png)
