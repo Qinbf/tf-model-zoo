@@ -7,4 +7,4 @@
 我的微信号：**sdxxqbf**
 以下为微信二维码：
 
-![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/README_IMG/02.png)
+![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/README_IMG/02.GIF)
