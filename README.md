@@ -1,5 +1,5 @@
 # tf-model-zoo
-tensorflow实现的深度学习应用和模型
+一行命令实现看图说话|Google的im2txt模型
 
 ![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/01.jpg)
 # 1.项目介绍
