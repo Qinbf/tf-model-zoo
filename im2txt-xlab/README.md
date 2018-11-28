@@ -1,6 +1,6 @@
 # 一行命令实现看图说话|Google的im2txt模型
 
-![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/01.jpg)
+![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/README_IMG/01.jpg)
 ## 1.项目介绍
 
 这次给大家介绍一个google的深度学习模型im2txt，这个模型的作用跟它的名字一样，image-to-text，把图像转为文字，也就是图片描述。
@@ -116,4 +116,4 @@ video2txt.ipynb是对应的jupyter文件
 我的微信号：**sdxxqbf**
 以下为微信二维码：
 
-![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/%E5%9B%BE%E7%89%8713.png)
+![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/README_IMG/02.png)
