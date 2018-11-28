@@ -1,8 +1,7 @@
-# tf-model-zoo
-一行命令实现看图说话|Google的im2txt模型
+# 一行命令实现看图说话|Google的im2txt模型
 
 ![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/01.jpg)
-# 1.项目介绍
+## 1.项目介绍
 
 这次给大家介绍一个google的深度学习模型im2txt，这个模型的作用跟它的名字一样，image-to-text，把图像转为文字，也就是图片描述。
 这个模型是使用 ***2015 MSCOCO Image Captioning Challenge*** 的数据集训练出来的
@@ -27,7 +26,7 @@ decoder是解码器，它是一个LSTM模型，常用于语言模型或机器翻
 
 图中的{s0, s1, ..., sN-1} 表示图像的描述，每个s代表一个词，图中的{wes0, wes1, ..., wesN-1} 是每个词的词向量，比如word2vec。输出的{p1, p2, ..., pN} 表示LSTM模型预测句子中的下一个词所对应的概率分布。{log p1(s1), log p2(s2), ..., log pN(sN)}表示正确词的对数似然估计。
 
-# 2.环境准备
+## 2.环境准备
 我的实验环境为：
 + Python-3.6
 + Tensorflow-1.12
@@ -39,7 +38,7 @@ Python的安装建议使用Anaconda
 
 Tensorflow的安装在Anaconda安装完以后使用命令 `pip install tensorflow` 安装。
 
-# 3.模型准备
+## 3.模型准备
 因为github上放模型不方便，所以训练好的模型我存放在我的百度云盘上，大家可以通过云盘下载。
 [百度云盘链接](https://pan.baidu.com/s/1nYlWBoOQjzgP5-GYfutMQA)    
 密码：***khtx***
@@ -47,7 +46,7 @@ Tensorflow的安装在Anaconda安装完以后使用命令 `pip install tensorflo
 模型下载好之后解压，然后把几个模型相关的文件存入项目文件夹的根目录中的model文件夹中，如下图：
 ![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/%E5%9B%BE%E7%89%872.1.png)
 
-# 4.运行模型
+## 4.运行模型
 + im2txt文件夹中是项目主要程序
 + images文件夹中是需要测试的图片
 + model文件夹中是训练好的模型
@@ -56,7 +55,7 @@ Tensorflow的安装在Anaconda安装完以后使用命令 `pip install tensorflo
 
 显示看图说话只需要执行一行命令，在项目文件根目录执行：`python img2txt.py`或者用jupyter打开img2txt.ipynb，在jupyter中运行可以更方便查看运行结果。
 
-# 5.运行效果
+## 5.运行效果
 
 我随机着了一些照片来测试，其中包含一张我养的猫的照片。图片的标题为模型给出的预测结果。
 
@@ -88,7 +87,7 @@ Tensorflow的安装在Anaconda安装完以后使用命令 `pip install tensorflo
 
 总的看来，这个模型可以比较好的识别比较简单的场景的，不过由于它不具备推理能力，没有生活常识，欣赏能力，所以一些复杂情况的图片它就不能很好的判断了。
 
-# 6.视频描述
+## 6.视频描述
 既然AI可以做图像描述，那么视频描述肯定也是可以的。
 
 video2txt.py是可以直接执行的python文件，可以传入一个视频并生成一个带有描述的新的视频
@@ -113,7 +112,7 @@ video2txt.ipynb是对应的jupyter文件
 
 喜欢的朋友，记得star和follow哦。
 
-# 一起交流
+## 一起交流
 我的微信号：**sdxxqbf**
 以下为微信二维码：
 
