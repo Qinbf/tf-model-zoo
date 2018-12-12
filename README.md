@@ -9,7 +9,7 @@
 
 [fast-neural-style](https://github.com/Qinbf/tf-model-zoo/tree/master/fast-neural-style):图像/视频风格迁移
 
-![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/fast-neural-style/img/results/res.GIF)
+![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/fast-neural-style/img/results/res.gif)
 
 ## 一起交流
 我的微信号：**sdxxqbf**  
