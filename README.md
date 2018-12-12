@@ -5,7 +5,7 @@
 
 [img2txt-xlab](https://github.com/Qinbf/tf-model-zoo/tree/master/im2txt-xlab):图像转换为文字，给视频加上字幕描述
 
-<img src="https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/%E5%9B%BE%E7%89%879.png" width="300"  align=left/>  
+<img src="https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/im2txt-xlab/README_IMG/%E5%9B%BE%E7%89%879.png" width="360"  align=left/>  
 
 [bottleneck](https://github.com/Qinbf/tf-model-zoo/tree/master/bottleneck):bottleneck的方式训练自己的图像分类模型
 
