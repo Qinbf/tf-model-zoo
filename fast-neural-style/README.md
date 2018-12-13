@@ -7,8 +7,8 @@
 
 那么，什么是图像风格迁移？图像风格迁移就是把一种图像风格转变为另一种图像风格。例如，原图为：
 ![上海外滩](https://upload-images.jianshu.io/upload_images/14843052-0fe9ee6a5bb1f9c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-加上不同风格的图像可以得到如下不同的结果：
 
+加上不同风格的图像可以得到如下不同的结果：
 | configuration | style | sample |
 | :---: | :----: | :----: |
 | [wave.yml](https://github.com/hzy46/fast-neural-style-tensorflow/blob/master/conf/wave.yml) |![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/fast-neural-style/img/style/wave.jpg)|  ![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/fast-neural-style/img/results/wave.jpg)  |
