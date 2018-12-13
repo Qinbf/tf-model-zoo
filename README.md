@@ -5,6 +5,8 @@
 
 [bottleneck](https://github.com/Qinbf/tf-model-zoo/tree/master/bottleneck):bottleneck的方式训练自己的图像分类模型
 
+<img src="https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/README_IMG/cat.jpg" width="360" align=left/>
+
 [fast-neural-style](https://github.com/Qinbf/tf-model-zoo/tree/master/fast-neural-style):图像/视频风格迁移
 
 ![](https://raw.githubusercontent.com/Qinbf/tf-model-zoo/master/fast-neural-style/img/results/res.gif)
